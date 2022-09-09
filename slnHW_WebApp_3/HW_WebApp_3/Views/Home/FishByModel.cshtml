@@ -1,0 +1,29 @@
+﻿@model FishViewModel[]
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Рыбы (model)";
+}
+
+<h3>Рыбы (model)</h3>
+    <ul>
+    @{
+        int i = 0;
+        foreach(var fish in Model)
+        {
+            if (i > 0)
+            {
+                <li>@("Наименование : "+fish.Name+"; Вес : "+fish.Weight+"; Скорость : "+fish.Speed)</li>
+            }
+            else
+            {
+               var myFish = ViewData["myFish"] as FishViewModel;
+                <li>@("Наименование : "+myFish.Name+"; Вес : "+myFish.Weight+"; Скорость : "+myFish.Speed)</li>
+            }
+            i++;
+        }
+     }
+    
+</ul>
+

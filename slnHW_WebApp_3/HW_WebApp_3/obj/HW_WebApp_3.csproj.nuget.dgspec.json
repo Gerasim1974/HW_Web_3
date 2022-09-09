@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\WorkProgramm\\HW_web_3\\slnHW_WebApp_3\\HW_WebApp_3\\HW_WebApp_3.csproj": {}
+  },
+  "projects": {
+    "C:\\WorkProgramm\\HW_web_3\\slnHW_WebApp_3\\HW_WebApp_3\\HW_WebApp_3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkProgramm\\HW_web_3\\slnHW_WebApp_3\\HW_WebApp_3\\HW_WebApp_3.csproj",
+        "projectName": "HW_WebApp_3",
+        "projectPath": "C:\\WorkProgramm\\HW_web_3\\slnHW_WebApp_3\\HW_WebApp_3\\HW_WebApp_3.csproj",
+        "packagesPath": "C:\\Users\\ПК\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkProgramm\\HW_web_3\\slnHW_WebApp_3\\HW_WebApp_3\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ПК\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
